@@ -37,10 +37,10 @@ we apply the logistic regression on the transformed dataset of 32-dim, 64-dim an
 
 Weka is a famous machine learning tool written in Java. This is open source software under the GPL. It helps to solve data science problem like classification, cluster and associate by giving a lot of useful machine learning algorithms library. Representative algorithms in the data science field are like Decision Tree, MLP, Naïve Bayes and Random Forest. Each algorithm has distinct characteristics because they are based on different theory as Tree, Neural Network, Bayes Theory (Probability) and Ensemble. In this paper, we show the difference of these algorithms in the handwritten digits recognition problem. For comparing the performance of these algorithms, we use the algorithms implemented in Weka. The basic setting of parameters of the algorithms is as follows.
 
-• Decision Tree (J48) -> Confidence Factor: 0.25, Minimum number of objects: 2 and Number of Folds: 3 
-• MLP -> Hidden Layer: 1, Learning rate: 0.3, Momentum: 0.2, Training time (The number of epochs): 100 and Validation Threshold: 20
-• Naïve Bayes-> None
-• Random Forest-> Maximum depth: 10, Number of Random Features: 10 and Number of Trees: 100 
+- Decision Tree (J48) -> Confidence Factor: 0.25, Minimum number of objects: 2 and Number of Folds: 3 
+- MLP -> Hidden Layer: 1, Learning rate: 0.3, Momentum: 0.2, Training time (The number of epochs): 100 and Validation Threshold: 20
+- Naïve Bayes-> None
+- Random Forest-> Maximum depth: 10, Number of Random Features: 10 and Number of Trees: 100 
 
 
 
