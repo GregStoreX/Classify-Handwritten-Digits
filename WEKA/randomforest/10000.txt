@@ -1,0 +1,60 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.RandomForest -I 100 -K 10 -S 1 -depth 10
+Relation:     train2
+Instances:    10000
+Attributes:   785
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 100 trees, each constructed while considering 10 random features.
+Out of bag error: 0.0774
+Max. depth of trees: 10
+
+
+
+Time taken to build model: 11.34 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        9378               93.78   %
+Incorrectly Classified Instances       622                6.22   %
+Kappa statistic                          0.9309
+Mean absolute error                      0.0766
+Root mean squared error                  0.1546
+Relative absolute error                 42.5896 %
+Root relative squared error             51.547  %
+Total Number of Instances            10000     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.982     0.005      0.956     0.982     0.969      0.999    0
+                 0.981     0.007      0.944     0.981     0.962      0.999    1
+                 0.937     0.007      0.936     0.937     0.936      0.996    2
+                 0.915     0.009      0.916     0.915     0.915      0.993    3
+                 0.928     0.006      0.941     0.928     0.934      0.995    4
+                 0.905     0.005      0.952     0.905     0.928      0.996    5
+                 0.967     0.005      0.955     0.967     0.961      0.999    6
+                 0.931     0.005      0.957     0.931     0.944      0.997    7
+                 0.913     0.006      0.937     0.913     0.925      0.993    8
+                 0.913     0.013      0.886     0.913     0.899      0.988    9
+Weighted Avg.    0.938     0.007      0.938     0.938     0.938      0.996
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j   <-- classified as
+  973    0    0    0    2    0    7    0    8    1 |    a = 0
+    0 1074    4    3    0    1    5    2    3    3 |    b = 1
+    4   12  979   10    9    1    4   13   10    3 |    c = 2
+    4    8   17  923    0   17    3    8   14   15 |    d = 3
+    1    3    6    1  897    1    9    1    0   48 |    e = 4
+   10    9    5   31    1  820   13    0    7   10 |    f = 5
+    9    5    1    0    4   10  970    2    2    0 |    g = 6
+    1   11   21    2    9    0    1  967    4   23 |    h = 7
+    7   11    9   24    4   10    3    1  867   14 |    i = 8
+    9    5    4   14   27    1    1   16   10  908 |    j = 9
+

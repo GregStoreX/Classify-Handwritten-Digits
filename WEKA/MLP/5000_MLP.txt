@@ -1,0 +1,913 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 100 -V 0 -S 0 -E 20 -H 1
+Relation:     train2
+Instances:    5000
+Attributes:   785
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -4.1954254291305295
+    Node 10    2.0102340166463506
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -4.927462318754294
+    Node 10    2.6754000909748075
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -4.3608200057187245
+    Node 10    2.3906439589731026
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -4.863919909967459
+    Node 10    2.732148705715476
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -4.355174203561065
+    Node 10    2.4995581826391846
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -4.113247326051637
+    Node 10    1.7120705217834251
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    2.747923055990445
+    Node 10    -7.7513504185243045
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -5.0097088754055275
+    Node 10    2.741077358353693
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -4.632026116935554
+    Node 10    2.6256155811866777
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -4.932510924918297
+    Node 10    2.7832578420659426
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    0.8591118327267521
+    Attrib pixel0    -0.022042322280061467
+    Attrib pixel1    -0.045255737997773604
+    Attrib pixel2    -0.00781171011606413
+    Attrib pixel3    -0.031121231515416837
+    Attrib pixel4    0.046563600226543336
+    Attrib pixel5    0.02835359571938363
+    Attrib pixel6    -0.006720808663470509
+    Attrib pixel7    0.002958048535485744
+    Attrib pixel8    0.033310716320378936
+    Attrib pixel9    0.038217810394639576
+    Attrib pixel10    -0.007632831775673164
+    Attrib pixel11    0.028453421877274163
+    Attrib pixel12    -0.028442023791978178
+    Attrib pixel13    -0.0258878331349212
+    Attrib pixel14    0.03352866502760331
+    Attrib pixel15    -0.015339237509584061
+    Attrib pixel16    0.0050578879446607355
+    Attrib pixel17    0.022898529578056423
+    Attrib pixel18    0.0120745219513946
+    Attrib pixel19    -0.029334866319784294
+    Attrib pixel20    0.02807928936174224
+    Attrib pixel21    -0.010563040188301273
+    Attrib pixel22    0.04768536601245117
+    Attrib pixel23    0.044907492687461636
+    Attrib pixel24    -0.025616115910078133
+    Attrib pixel25    0.012817905325720289
+    Attrib pixel26    -0.013037384874189241
+    Attrib pixel27    0.017345231997671004
+    Attrib pixel28    -0.031158652622800057
+    Attrib pixel29    0.0143804652900614
+    Attrib pixel30    0.015830259327759513
+    Attrib pixel31    -0.006036942013643021
+    Attrib pixel32    -0.00732516275504911
+    Attrib pixel33    -0.029279567011996833
+    Attrib pixel34    -0.9102857720963516
+    Attrib pixel35    -0.9064038012681391
+    Attrib pixel36    -0.8268387953187628
+    Attrib pixel37    -0.7900835425400057
+    Attrib pixel38    -0.8387131871753802
+    Attrib pixel39    -0.7938265248365649
+    Attrib pixel40    -0.7175910407005135
+    Attrib pixel41    -0.8671011215811109
+    Attrib pixel42    -1.0656797525098296
+    Attrib pixel43    -1.1063643884182546
+    Attrib pixel44    -0.6797103081170051
+    Attrib pixel45    -0.5361913501846333
+    Attrib pixel46    -1.0150998598850611
+    Attrib pixel47    -1.0352036633077808
+    Attrib pixel48    -1.1113682706377446
+    Attrib pixel49    -1.0475912958565239
+    Attrib pixel50    -0.9443828208815049
+    Attrib pixel51    0.007842435980842069
+    Attrib pixel52    -0.009992127849934099
+    Attrib pixel53    0.009331568950510002
+    Attrib pixel54    -0.03268861126986011
+    Attrib pixel55    -0.045513711415180104
+    Attrib pixel56    -0.0070650298949138865
+    Attrib pixel57    0.02488526355786072
+    Attrib pixel58    0.022716607444737663
+    Attrib pixel59    -0.004137755723496082
+    Attrib pixel60    -0.03528022340142603
+    Attrib pixel61    -0.9223118339182989
+    Attrib pixel62    -0.8496579422914446
+    Attrib pixel63    -0.925878642119215
+    Attrib pixel64    -1.2378723685503192
+    Attrib pixel65    -1.6101150706814813
+    Attrib pixel66    -1.1855724014309825
+    Attrib pixel67    -1.1739473566844358
+    Attrib pixel68    -0.8891444207162269
+    Attrib pixel69    -0.7483895749222748
+    Attrib pixel70    -3.575648704775325
+    Attrib pixel71    -3.8639281891524226
+    Attrib pixel72    -3.629761517075891
+    Attrib pixel73    -1.233816236589046
+    Attrib pixel74    -1.5017088338833713
+    Attrib pixel75    -1.7421412890632229
+    Attrib pixel76    -2.004118215834564
+    Attrib pixel77    -1.8662966525390117
+    Attrib pixel78    -1.1535697840173877
+    Attrib pixel79    -1.2136324480418585
+    Attrib pixel80    -0.9517590965778592
+    Attrib pixel81    -0.9300717362131988
+    Attrib pixel82    -0.0031434336829586074
+    Attrib pixel83    0.02391056517603135
+    Attrib pixel84    -0.02882313154401125
+    Attrib pixel85    -0.03209280272749061
+    Attrib pixel86    0.0030889462012130137
+    Attrib pixel87    -0.043384489650475755
+    Attrib pixel88    -0.007466123859877716
+    Attrib pixel89    -0.7634701372881469
+    Attrib pixel90    -0.7042634980448
+    Attrib pixel91    -0.2226399608564238
+    Attrib pixel92    -0.7917161290994454
+    Attrib pixel93    -0.7812498569159514
+    Attrib pixel94    -1.9750846730858322
+    Attrib pixel95    -0.9998643875646127
+    Attrib pixel96    0.4414880414009676
+    Attrib pixel97    0.4229769692395329
+    Attrib pixel98    -1.4308342760681063
+    Attrib pixel99    -2.085045822303513
+    Attrib pixel100    0.029494404178615187
+    Attrib pixel101    -1.816563912838031
+    Attrib pixel102    -3.216864451547522
+    Attrib pixel103    -3.4340051938788707
+    Attrib pixel104    -4.5315597964356185
+    Attrib pixel105    -3.3146678460798005
+    Attrib pixel106    -2.385915421128875
+    Attrib pixel107    -2.2847953102589247
+    Attrib pixel108    -1.5519472383136372
+    Attrib pixel109    -1.1664599758658243
+    Attrib pixel110    -0.04258108779464812
+    Attrib pixel111    0.048525376681647484
+    Attrib pixel112    0.001287045390457861
+    Attrib pixel113    -0.047241346048151216
+    Attrib pixel114    0.04301626921118462
+    Attrib pixel115    -0.9153311523895443
+    Attrib pixel116    -0.8734428585713812
+    Attrib pixel117    0.10805899127106657
+    Attrib pixel118    0.4295027393271261
+    Attrib pixel119    1.1095916359983267
+    Attrib pixel120    1.2145884729078595
+    Attrib pixel121    0.5867947160475369
+    Attrib pixel122    -1.5188186382143953
+    Attrib pixel123    -0.16114243850233256
+    Attrib pixel124    3.3575353884268946
+    Attrib pixel125    0.7740256334310488
+    Attrib pixel126    -1.1975293049507685
+    Attrib pixel127    1.3130653135412482
+    Attrib pixel128    0.2156487855515565
+    Attrib pixel129    -2.878695545424505
+    Attrib pixel130    -2.9117811179555355
+    Attrib pixel131    -1.4011179867551753
+    Attrib pixel132    -2.256166738618868
+    Attrib pixel133    -2.6135256785040513
+    Attrib pixel134    -2.5090791257968688
+    Attrib pixel135    -1.6324956915912527
+    Attrib pixel136    -1.7830964466145933
+    Attrib pixel137    -1.478391569444945
+    Attrib pixel138    -0.8416197920372016
+    Attrib pixel139    0.012882956858356234
+    Attrib pixel140    -0.004280623405393438
+    Attrib pixel141    0.015261857544311933
+    Attrib pixel142    -0.04478771023547043
+    Attrib pixel143    -0.8811394672649093
+    Attrib pixel144    -0.8707900316616802
+    Attrib pixel145    0.39145001999061535
+    Attrib pixel146    0.799003407177598
+    Attrib pixel147    2.1042960631136096
+    Attrib pixel148    1.8228131628290714
+    Attrib pixel149    0.7860525710028543
+    Attrib pixel150    -0.9894962650932017
+    Attrib pixel151    1.707330737514167
+    Attrib pixel152    3.3344507365084977
+    Attrib pixel153    3.9408615764479986
+    Attrib pixel154    1.9128787206917652
+    Attrib pixel155    1.8283945337367953
+    Attrib pixel156    0.022609625788940182
+    Attrib pixel157    -2.6384794132873317
+    Attrib pixel158    -1.226242134806699
+    Attrib pixel159    -0.7320053962742722
+    Attrib pixel160    -0.0451881920328547
+    Attrib pixel161    -0.4108115787103238
+    Attrib pixel162    0.4671340561525682
+    Attrib pixel163    0.949129950188085
+    Attrib pixel164    -0.48784152262368513
+    Attrib pixel165    -1.4563637140452133
+    Attrib pixel166    -0.8999528959640412
+    Attrib pixel167    -0.8733077464709026
+    Attrib pixel168    0.010302602367586053
+    Attrib pixel169    0.0022490201028642423
+    Attrib pixel170    -0.9020352538275785
+    Attrib pixel171    -0.9259885157652917
+    Attrib pixel172    -0.8361312300819546
+    Attrib pixel173    -0.1883138026063275
+    Attrib pixel174    0.1142445899083745
+    Attrib pixel175    1.8647382440848
+    Attrib pixel176    1.3056316638480747
+    Attrib pixel177    0.08578113096596314
+    Attrib pixel178    0.020666411306165342
+    Attrib pixel179    4.218320487703531
+    Attrib pixel180    3.162911510115502
+    Attrib pixel181    2.165703530866071
+    Attrib pixel182    4.276157749085816
+    Attrib pixel183    2.9644644759276453
+    Attrib pixel184    0.7263145761515255
+    Attrib pixel185    0.6693819839904802
+    Attrib pixel186    1.071202018047069
+    Attrib pixel187    2.6143015294543948
+    Attrib pixel188    1.3842405129464386
+    Attrib pixel189    2.0737658008299213
+    Attrib pixel190    2.9432081062687416
+    Attrib pixel191    2.5059007064341485
+    Attrib pixel192    0.7540690227956132
+    Attrib pixel193    -0.6523216850899702
+    Attrib pixel194    -0.6474579527439781
+    Attrib pixel195    -0.9241765955720186
+    Attrib pixel196    0.023784359591590074
+    Attrib pixel197    0.012648671651347143
+    Attrib pixel198    -0.9025539651029805
+    Attrib pixel199    -0.9014421982848871
+    Attrib pixel200    -0.7320310291342272
+    Attrib pixel201    -0.31511092120844725
+    Attrib pixel202    0.452453650620177
+    Attrib pixel203    1.0638027579522769
+    Attrib pixel204    1.2131216669298917
+    Attrib pixel205    0.42705538183009367
+    Attrib pixel206    1.2640735574136912
+    Attrib pixel207    2.478268040957656
+    Attrib pixel208    1.6112658078502606
+    Attrib pixel209    2.2221850589517196
+    Attrib pixel210    1.6584354776140773
+    Attrib pixel211    2.2173753316857496
+    Attrib pixel212    1.8080524423045259
+    Attrib pixel213    2.0275440504730677
+    Attrib pixel214    3.3116695277051638
+    Attrib pixel215    3.747147236000568
+    Attrib pixel216    3.2955787960597567
+    Attrib pixel217    4.0478092019985645
+    Attrib pixel218    4.049457192094562
+    Attrib pixel219    2.017880337181729
+    Attrib pixel220    0.7544058113766362
+    Attrib pixel221    -0.40879906895280027
+    Attrib pixel222    -0.8916131860729103
+    Attrib pixel223    -0.027195692621199443
+    Attrib pixel224    -0.8457662405227374
+    Attrib pixel225    -0.8384404785627674
+    Attrib pixel226    -0.9201827057792137
+    Attrib pixel227    -0.9249456830734154
+    Attrib pixel228    -0.7585337422230883
+    Attrib pixel229    0.3232269513342747
+    Attrib pixel230    0.5667626602046547
+    Attrib pixel231    1.4774148325513912
+    Attrib pixel232    2.2680258155269706
+    Attrib pixel233    0.8796882351749958
+    Attrib pixel234    1.2179380871581096
+    Attrib pixel235    1.0391149883067634
+    Attrib pixel236    1.4771498884485772
+    Attrib pixel237    0.95866674327417
+    Attrib pixel238    3.2615958437633656
+    Attrib pixel239    4.378110771455887
+    Attrib pixel240    3.4034043068184148
+    Attrib pixel241    3.886603971290873
+    Attrib pixel242    5.987229755296202
+    Attrib pixel243    6.206703871130635
+    Attrib pixel244    4.659211087554382
+    Attrib pixel245    4.546185738063766
+    Attrib pixel246    4.501224878958535
+    Attrib pixel247    1.8618408757898968
+    Attrib pixel248    -0.11158862500765224
+    Attrib pixel249    -0.3363995004122426
+    Attrib pixel250    -0.9008775137876638
+    Attrib pixel251    -0.9136686039348664
+    Attrib pixel252    0.005316036002382583
+    Attrib pixel253    -0.8962970915457183
+    Attrib pixel254    -0.8864340254176021
+    Attrib pixel255    -0.8864681847884269
+    Attrib pixel256    -0.7458382518651587
+    Attrib pixel257    0.9488387519336963
+    Attrib pixel258    0.5972156477434601
+    Attrib pixel259    1.4598866005375264
+    Attrib pixel260    2.566348100372154
+    Attrib pixel261    0.9676696340623563
+    Attrib pixel262    0.8209848189181655
+    Attrib pixel263    -0.27473674823165356
+    Attrib pixel264    -0.5271622083337285
+    Attrib pixel265    0.44470912104565574
+    Attrib pixel266    3.158912355905441
+    Attrib pixel267    5.963352563447789
+    Attrib pixel268    5.341395358629525
+    Attrib pixel269    5.2858585325848715
+    Attrib pixel270    7.005525757220319
+    Attrib pixel271    5.264435924672973
+    Attrib pixel272    4.898956328610517
+    Attrib pixel273    5.113810229021254
+    Attrib pixel274    4.210247512270745
+    Attrib pixel275    1.7682139298383168
+    Attrib pixel276    0.24433876585191072
+    Attrib pixel277    -0.03168030620667517
+    Attrib pixel278    -0.5871279533989152
+    Attrib pixel279    -0.6741824522942388
+    Attrib pixel280    0.014118947375071689
+    Attrib pixel281    -0.8765118353211098
+    Attrib pixel282    -0.8005347521870709
+    Attrib pixel283    -0.6973431643530169
+    Attrib pixel284    -0.568498563258856
+    Attrib pixel285    0.5646512246624176
+    Attrib pixel286    -0.2374989437622874
+    Attrib pixel287    -0.4426440920303899
+    Attrib pixel288    1.3486733258922738
+    Attrib pixel289    1.393043453013025
+    Attrib pixel290    0.36378882969700843
+    Attrib pixel291    0.40225487996216297
+    Attrib pixel292    -1.3796988395199927
+    Attrib pixel293    0.32806298744554735
+    Attrib pixel294    1.4786293679310616
+    Attrib pixel295    1.615722624798174
+    Attrib pixel296    3.4691564509466573
+    Attrib pixel297    2.9612596411692995
+    Attrib pixel298    4.245305053827696
+    Attrib pixel299    3.733827545977849
+    Attrib pixel300    3.2635367972975042
+    Attrib pixel301    3.197449024060022
+    Attrib pixel302    2.5879640164526116
+    Attrib pixel303    1.6071284239306913
+    Attrib pixel304    0.8111107377135122
+    Attrib pixel305    -0.09154736513711194
+    Attrib pixel306    -0.5021944362003935
+    Attrib pixel307    -0.6496565378467296
+    Attrib pixel308    0.04837434261820216
+    Attrib pixel309    -0.6723770914528677
+    Attrib pixel310    -0.6039158119335519
+    Attrib pixel311    0.12887770125853376
+    Attrib pixel312    0.6377169290327026
+    Attrib pixel313    0.9590718098784503
+    Attrib pixel314    0.4095030471171964
+    Attrib pixel315    -0.6134712079256603
+    Attrib pixel316    0.1800949198545838
+    Attrib pixel317    1.0540277876898176
+    Attrib pixel318    0.53427791719126
+    Attrib pixel319    0.4186968355383062
+    Attrib pixel320    -1.619833758938319
+    Attrib pixel321    -0.21819247885940665
+    Attrib pixel322    0.9000846841874062
+    Attrib pixel323    2.6749676116210312
+    Attrib pixel324    0.20434104510419454
+    Attrib pixel325    1.4675568020192093
+    Attrib pixel326    2.352751857331661
+    Attrib pixel327    0.5981700014903854
+    Attrib pixel328    -0.11626460098339593
+    Attrib pixel329    0.7758798566802947
+    Attrib pixel330    0.48484135199384887
+    Attrib pixel331    0.7751303396900102
+    Attrib pixel332    -0.13908960947365345
+    Attrib pixel333    -0.19091541922484695
+    Attrib pixel334    -0.8483024981218518
+    Attrib pixel335    -0.039134390699370095
+    Attrib pixel336    0.02927323069558274
+    Attrib pixel337    -0.8046725441327183
+    Attrib pixel338    -0.7552261840886785
+    Attrib pixel339    0.16239036013742197
+    Attrib pixel340    0.605018613628921
+    Attrib pixel341    1.144210508007359
+    Attrib pixel342    -0.4179879419988882
+    Attrib pixel343    -1.494883891831468
+    Attrib pixel344    -1.6335217735658427
+    Attrib pixel345    0.6584801554978886
+    Attrib pixel346    -0.12021449727109829
+    Attrib pixel347    -0.8474343190344509
+    Attrib pixel348    -2.5412765854180894
+    Attrib pixel349    0.6309724817225101
+    Attrib pixel350    2.903473513991514
+    Attrib pixel351    2.6694951273077496
+    Attrib pixel352    0.19951254635784227
+    Attrib pixel353    -0.6398528880202407
+    Attrib pixel354    0.6583613075904426
+    Attrib pixel355    0.054635629339757456
+    Attrib pixel356    -1.4818541130134244
+    Attrib pixel357    -0.24567965743912545
+    Attrib pixel358    -2.0515060821969744
+    Attrib pixel359    -1.1845952477261674
+    Attrib pixel360    -0.5629457545098245
+    Attrib pixel361    -0.282266390772297
+    Attrib pixel362    -0.04684378415148977
+    Attrib pixel363    -0.7450895253779514
+    Attrib pixel364    -0.049013587432722966
+    Attrib pixel365    -0.022900558836125386
+    Attrib pixel366    -0.8595019729329995
+    Attrib pixel367    -0.1949457462520507
+    Attrib pixel368    0.28998278624009616
+    Attrib pixel369    1.1674449664314657
+    Attrib pixel370    -0.5799428755732433
+    Attrib pixel371    -2.1361661126831306
+    Attrib pixel372    -3.1055499674944236
+    Attrib pixel373    -1.7047992351607166
+    Attrib pixel374    -1.2745490056659181
+    Attrib pixel375    -2.708625598584092
+    Attrib pixel376    -2.842461646651872
+    Attrib pixel377    -0.7496922445844174
+    Attrib pixel378    2.4606729732517767
+    Attrib pixel379    1.3561853962702044
+    Attrib pixel380    -0.0766600223981634
+    Attrib pixel381    -0.3953132664233708
+    Attrib pixel382    0.1512694750447898
+    Attrib pixel383    -0.5657979161165667
+    Attrib pixel384    0.47631108226104973
+    Attrib pixel385    0.19048977497133307
+    Attrib pixel386    -1.7619823992666857
+    Attrib pixel387    -2.8962894189650696
+    Attrib pixel388    -1.1015816260349907
+    Attrib pixel389    -0.29369878583347203
+    Attrib pixel390    0.015548340854380489
+    Attrib pixel391    -0.720830353139089
+    Attrib pixel392    -0.015831082369625826
+    Attrib pixel393    -0.011895174860602507
+    Attrib pixel394    -0.8716441044996909
+    Attrib pixel395    -0.8330861463767844
+    Attrib pixel396    0.02049217505627089
+    Attrib pixel397    1.1205221676243935
+    Attrib pixel398    -0.9418235175900271
+    Attrib pixel399    -1.9911661797774147
+    Attrib pixel400    -3.1387234548340683
+    Attrib pixel401    -0.8790648273222877
+    Attrib pixel402    -1.4234259753355512
+    Attrib pixel403    -2.401993160707765
+    Attrib pixel404    -0.5873947161520678
+    Attrib pixel405    1.67577266321943
+    Attrib pixel406    1.761917979568782
+    Attrib pixel407    1.055983966128787
+    Attrib pixel408    -0.6329928786083645
+    Attrib pixel409    0.18310798511315068
+    Attrib pixel410    -2.143032409366604
+    Attrib pixel411    0.8535017339739719
+    Attrib pixel412    -0.6649104995235358
+    Attrib pixel413    -1.1958212214110306
+    Attrib pixel414    -1.733187230535496
+    Attrib pixel415    -3.9130380886575407
+    Attrib pixel416    -1.5009921205000425
+    Attrib pixel417    -0.7299317199352241
+    Attrib pixel418    -0.2826922453221646
+    Attrib pixel419    -0.7028540569847207
+    Attrib pixel420    0.014034440127083755
+    Attrib pixel421    -0.003246442301689155
+    Attrib pixel422    -0.9073049704934811
+    Attrib pixel423    -0.8844979133036118
+    Attrib pixel424    -0.21457725748258216
+    Attrib pixel425    0.069181671190949
+    Attrib pixel426    0.1603310720500835
+    Attrib pixel427    -1.1314202338943269
+    Attrib pixel428    -1.1658227237182561
+    Attrib pixel429    0.368322070533941
+    Attrib pixel430    -1.3172193876430573
+    Attrib pixel431    -2.1539913525939953
+    Attrib pixel432    1.093775719079186
+    Attrib pixel433    1.0213076849943272
+    Attrib pixel434    -1.8425415013258084
+    Attrib pixel435    -2.79643406204514
+    Attrib pixel436    -0.17154087803107237
+    Attrib pixel437    3.415083194153077
+    Attrib pixel438    0.5329998021083325
+    Attrib pixel439    0.6991231987423491
+    Attrib pixel440    -0.13647173135316856
+    Attrib pixel441    -0.4119786360018387
+    Attrib pixel442    -0.4423611502676319
+    Attrib pixel443    -2.429264098854102
+    Attrib pixel444    -0.3387647047117832
+    Attrib pixel445    -1.5992940521634287
+    Attrib pixel446    -0.673608042890736
+    Attrib pixel447    -0.6548208322701171
+    Attrib pixel448    -0.035672643390682025
+    Attrib pixel449    0.00870508131210588
+    Attrib pixel450    -0.8689007492555249
+    Attrib pixel451    -0.8400117617104658
+    Attrib pixel452    -0.13736051361453583
+    Attrib pixel453    0.414529841905346
+    Attrib pixel454    -0.668396049734579
+    Attrib pixel455    -1.5572827933378905
+    Attrib pixel456    0.04992870236349096
+    Attrib pixel457    -0.5961395107305872
+    Attrib pixel458    -1.0771720848555537
+    Attrib pixel459    -2.3407170027384674
+    Attrib pixel460    1.211174307514031
+    Attrib pixel461    1.830011901011926
+    Attrib pixel462    -2.2783798012908796
+    Attrib pixel463    -1.5561524802605768
+    Attrib pixel464    0.9945694303850834
+    Attrib pixel465    3.2592567639261336
+    Attrib pixel466    -0.16656308252838922
+    Attrib pixel467    0.6145248392801591
+    Attrib pixel468    -1.6549347002636088
+    Attrib pixel469    -1.8860023931448233
+    Attrib pixel470    1.0100759158991643
+    Attrib pixel471    0.44868901854497745
+    Attrib pixel472    0.14660787538893433
+    Attrib pixel473    -0.11651374864901257
+    Attrib pixel474    -0.261309869278212
+    Attrib pixel475    -0.667647704125151
+    Attrib pixel476    -0.0011482115243827279
+    Attrib pixel477    0.024605365320871847
+    Attrib pixel478    -0.8654992877576267
+    Attrib pixel479    -0.5741626295394807
+    Attrib pixel480    -0.32591153124400624
+    Attrib pixel481    1.1850674162893042
+    Attrib pixel482    -0.28592505773353016
+    Attrib pixel483    -0.03437757478636843
+    Attrib pixel484    -0.39413869411947555
+    Attrib pixel485    -1.6135606174767165
+    Attrib pixel486    -3.02188266754892
+    Attrib pixel487    -3.9228378949427696
+    Attrib pixel488    -2.204430640588844
+    Attrib pixel489    0.8111206851764385
+    Attrib pixel490    -0.8063762367403071
+    Attrib pixel491    1.118329876008733
+    Attrib pixel492    1.2316352339210845
+    Attrib pixel493    -0.005854757398140614
+    Attrib pixel494    -1.7347421273343968
+    Attrib pixel495    -0.865248463746434
+    Attrib pixel496    -3.144021709542086
+    Attrib pixel497    -0.9626338047581106
+    Attrib pixel498    1.338146584461537
+    Attrib pixel499    0.6781600062906064
+    Attrib pixel500    0.22590429392471925
+    Attrib pixel501    0.15834798536518147
+    Attrib pixel502    -0.4959210065399426
+    Attrib pixel503    -0.6389089692770794
+    Attrib pixel504    -0.008075636932204908
+    Attrib pixel505    -0.9278134728068984
+    Attrib pixel506    -0.8417731995533936
+    Attrib pixel507    -0.39767000658781615
+    Attrib pixel508    -0.49673816394953385
+    Attrib pixel509    1.1542193823158784
+    Attrib pixel510    0.10090116944331247
+    Attrib pixel511    0.6591213365217586
+    Attrib pixel512    0.01157603264923059
+    Attrib pixel513    -0.9814669817733302
+    Attrib pixel514    -2.1868511410386264
+    Attrib pixel515    -2.989478722780111
+    Attrib pixel516    -2.3494447310210953
+    Attrib pixel517    -0.6334950939796946
+    Attrib pixel518    -0.8906009057666607
+    Attrib pixel519    1.6384551881773781
+    Attrib pixel520    0.19185169838547986
+    Attrib pixel521    -2.3326865386803686
+    Attrib pixel522    -3.454230936781467
+    Attrib pixel523    -0.12953564556180558
+    Attrib pixel524    -0.6367679247210583
+    Attrib pixel525    0.3128652620732221
+    Attrib pixel526    2.472424527689722
+    Attrib pixel527    1.318024651529909
+    Attrib pixel528    0.8081942240739842
+    Attrib pixel529    -0.42013706615009383
+    Attrib pixel530    -0.6721446326299473
+    Attrib pixel531    -0.6911379861094805
+    Attrib pixel532    0.01819922380434169
+    Attrib pixel533    -0.830925039369038
+    Attrib pixel534    -0.8709026873553564
+    Attrib pixel535    -0.49515210937495885
+    Attrib pixel536    -0.25314572086578185
+    Attrib pixel537    0.3801459757665731
+    Attrib pixel538    0.7085828741848867
+    Attrib pixel539    1.1831188900528018
+    Attrib pixel540    -0.6337497009302939
+    Attrib pixel541    0.25704461341829454
+    Attrib pixel542    -3.621661550048574
+    Attrib pixel543    -4.682136584603143
+    Attrib pixel544    -2.1543343366744407
+    Attrib pixel545    0.8050401817891407
+    Attrib pixel546    -0.7251688859811145
+    Attrib pixel547    -1.6046944860202201
+    Attrib pixel548    -1.5102490378327185
+    Attrib pixel549    -1.3248459720820398
+    Attrib pixel550    -1.1425795816687705
+    Attrib pixel551    -1.655587287338763
+    Attrib pixel552    0.06827568416124176
+    Attrib pixel553    0.48009287859918093
+    Attrib pixel554    2.7683931589928346
+    Attrib pixel555    1.9468757599608038
+    Attrib pixel556    0.7619243181884277
+    Attrib pixel557    -0.43014622088362864
+    Attrib pixel558    -0.5995328212444736
+    Attrib pixel559    0.030783850979953314
+    Attrib pixel560    0.030770971836543454
+    Attrib pixel561    -0.8609693146560456
+    Attrib pixel562    -0.8463770002527152
+    Attrib pixel563    -0.6368056665858192
+    Attrib pixel564    -0.15724817612777287
+    Attrib pixel565    0.804994274197102
+    Attrib pixel566    1.950948742671334
+    Attrib pixel567    2.029371973163878
+    Attrib pixel568    0.8073870065033412
+    Attrib pixel569    -0.7080262524524913
+    Attrib pixel570    -2.2247576521971206
+    Attrib pixel571    -3.509297173482021
+    Attrib pixel572    -1.8269766520470385
+    Attrib pixel573    -3.531048176078284
+    Attrib pixel574    -2.7978709464223837
+    Attrib pixel575    -3.234729744396137
+    Attrib pixel576    -2.2764168432001664
+    Attrib pixel577    -0.3784794273579909
+    Attrib pixel578    -1.0104051866244599
+    Attrib pixel579    -0.9070457624185201
+    Attrib pixel580    0.2817619336266291
+    Attrib pixel581    1.188295163996226
+    Attrib pixel582    3.2847756585150503
+    Attrib pixel583    1.815894921390594
+    Attrib pixel584    0.4289624101981699
+    Attrib pixel585    -0.6650296155841983
+    Attrib pixel586    -0.7283941286902159
+    Attrib pixel587    0.0038098664543139357
+    Attrib pixel588    -0.9059953234279653
+    Attrib pixel589    -0.8476479012230099
+    Attrib pixel590    -0.8310422274080157
+    Attrib pixel591    -0.6540424239668943
+    Attrib pixel592    0.5296753915732012
+    Attrib pixel593    1.5215555405123617
+    Attrib pixel594    2.2404900475122744
+    Attrib pixel595    2.7676182863280943
+    Attrib pixel596    3.142572751191654
+    Attrib pixel597    1.3815471238778476
+    Attrib pixel598    -0.7261554211925354
+    Attrib pixel599    -2.1074705052785956
+    Attrib pixel600    -2.695506742889323
+    Attrib pixel601    -4.193844685179283
+    Attrib pixel602    -4.15776288094352
+    Attrib pixel603    -1.999515625190269
+    Attrib pixel604    -1.439267286824399
+    Attrib pixel605    -0.948592703670185
+    Attrib pixel606    -0.9955542867401413
+    Attrib pixel607    -1.1722160703832718
+    Attrib pixel608    1.43312826314952
+    Attrib pixel609    2.154306111284203
+    Attrib pixel610    1.3010266158204935
+    Attrib pixel611    0.6905805080704279
+    Attrib pixel612    -0.009264002919881987
+    Attrib pixel613    -0.7611235497557526
+    Attrib pixel614    -0.8094990020456331
+    Attrib pixel615    -0.0406993063635894
+    Attrib pixel616    -0.8632313520936433
+    Attrib pixel617    -0.9103214316322935
+    Attrib pixel618    -0.8900225980910327
+    Attrib pixel619    -0.6314195656944195
+    Attrib pixel620    0.5437586643521832
+    Attrib pixel621    0.8051600211407308
+    Attrib pixel622    1.4967769680779188
+    Attrib pixel623    1.8058822914322692
+    Attrib pixel624    2.8269842237240814
+    Attrib pixel625    2.7958173563577926
+    Attrib pixel626    2.666970833424978
+    Attrib pixel627    2.8406813336860646
+    Attrib pixel628    2.6884017980245463
+    Attrib pixel629    0.9952902208186164
+    Attrib pixel630    -1.3816312859894846
+    Attrib pixel631    0.250270256939831
+    Attrib pixel632    0.23537142750459214
+    Attrib pixel633    1.9028640329197346
+    Attrib pixel634    1.2176167665910393
+    Attrib pixel635    1.365324456756746
+    Attrib pixel636    1.1624574666501375
+    Attrib pixel637    0.312824118417948
+    Attrib pixel638    -0.2724779103210259
+    Attrib pixel639    -0.18730730572445217
+    Attrib pixel640    -7.118618731360508E-5
+    Attrib pixel641    -0.7988229910210392
+    Attrib pixel642    -0.8647934885217999
+    Attrib pixel643    -0.04746599975082071
+    Attrib pixel644    -0.017442203330899998
+    Attrib pixel645    0.004026237250308963
+    Attrib pixel646    -0.8383915568470967
+    Attrib pixel647    -0.8799390552708016
+    Attrib pixel648    -0.358452046739501
+    Attrib pixel649    0.08536872741076397
+    Attrib pixel650    0.37685623304722793
+    Attrib pixel651    0.6080501979074209
+    Attrib pixel652    1.3632872823238669
+    Attrib pixel653    1.5109295245050702
+    Attrib pixel654    2.225649940411712
+    Attrib pixel655    3.537764083745657
+    Attrib pixel656    2.32869259859808
+    Attrib pixel657    0.8802804543898982
+    Attrib pixel658    1.2772788232971608
+    Attrib pixel659    1.2376304517351384
+    Attrib pixel660    2.233788141961022
+    Attrib pixel661    1.2269553865240699
+    Attrib pixel662    0.4990773187672896
+    Attrib pixel663    -0.2711172744241342
+    Attrib pixel664    -0.34027922901491403
+    Attrib pixel665    -0.4111278075168648
+    Attrib pixel666    -0.7425911517595885
+    Attrib pixel667    -0.2221256124280058
+    Attrib pixel668    0.0720050636450733
+    Attrib pixel669    -0.22034235346320538
+    Attrib pixel670    -0.917460202419499
+    Attrib pixel671    0.015400190796983876
+    Attrib pixel672    0.01703024189489935
+    Attrib pixel673    0.039198972826102366
+    Attrib pixel674    -0.006169882468337939
+    Attrib pixel675    -0.9176201470259461
+    Attrib pixel676    -0.7439287891212895
+    Attrib pixel677    -0.6658775477596491
+    Attrib pixel678    -0.6799977548964103
+    Attrib pixel679    -0.614816845042919
+    Attrib pixel680    -0.5065235908425947
+    Attrib pixel681    -0.3373158178834753
+    Attrib pixel682    0.0414120539833955
+    Attrib pixel683    0.3016636747354552
+    Attrib pixel684    0.7362751733354387
+    Attrib pixel685    0.9921697467895346
+    Attrib pixel686    0.7829720187596358
+    Attrib pixel687    1.5590308944764832
+    Attrib pixel688    0.12931325386717626
+    Attrib pixel689    0.09119484974170936
+    Attrib pixel690    0.0814395209953285
+    Attrib pixel691    -0.009209421955791563
+    Attrib pixel692    -0.5941133002293123
+    Attrib pixel693    -0.722481273057394
+    Attrib pixel694    -0.826586457089912
+    Attrib pixel695    -0.8092746198813129
+    Attrib pixel696    -0.8986769022828255
+    Attrib pixel697    0.027731903893437673
+    Attrib pixel698    -0.038168848568590076
+    Attrib pixel699    -0.013785558445060055
+    Attrib pixel700    0.04477293193861921
+    Attrib pixel701    0.004477451501188182
+    Attrib pixel702    -0.8521355746790044
+    Attrib pixel703    -0.8964884894776451
+    Attrib pixel704    -0.9187867497825605
+    Attrib pixel705    -0.8786808197128385
+    Attrib pixel706    -0.8382917408697058
+    Attrib pixel707    -0.8380199747638136
+    Attrib pixel708    -0.9054220536133687
+    Attrib pixel709    -0.8617349123700294
+    Attrib pixel710    -0.6448150032940657
+    Attrib pixel711    -0.2872949848142663
+    Attrib pixel712    -0.24014156054670135
+    Attrib pixel713    -0.3182532769475213
+    Attrib pixel714    -0.26662432706077904
+    Attrib pixel715    -0.42184752038426987
+    Attrib pixel716    -0.6548081164237376
+    Attrib pixel717    -0.5617536065190452
+    Attrib pixel718    -0.5231220854175576
+    Attrib pixel719    -0.6513235131014202
+    Attrib pixel720    -0.8245473307361401
+    Attrib pixel721    -0.8538268297367503
+    Attrib pixel722    -0.925872991094267
+    Attrib pixel723    -0.8706001344328039
+    Attrib pixel724    0.019609906850855563
+    Attrib pixel725    0.018458902361925364
+    Attrib pixel726    0.005376764670233181
+    Attrib pixel727    -0.029133819362193603
+    Attrib pixel728    0.03778028706586821
+    Attrib pixel729    -0.019440871888002767
+    Attrib pixel730    0.029794286161035896
+    Attrib pixel731    -0.001778403516399872
+    Attrib pixel732    -0.020681493508224482
+    Attrib pixel733    -0.8588959885080029
+    Attrib pixel734    -0.8711894120690028
+    Attrib pixel735    -0.8631412053112043
+    Attrib pixel736    -0.8358179151003523
+    Attrib pixel737    -0.9062244883122864
+    Attrib pixel738    -0.8867387232212293
+    Attrib pixel739    -0.8458524329409197
+    Attrib pixel740    -0.7824016159637983
+    Attrib pixel741    -0.7891853362434559
+    Attrib pixel742    -0.6414414158766564
+    Attrib pixel743    -0.7648740782529666
+    Attrib pixel744    -0.8322297092059618
+    Attrib pixel745    -0.8952893497724324
+    Attrib pixel746    -0.8142604193954933
+    Attrib pixel747    -0.8447258063890496
+    Attrib pixel748    -0.809014170391012
+    Attrib pixel749    -0.8742327626618799
+    Attrib pixel750    -0.9196278664835044
+    Attrib pixel751    -0.8908372555622442
+    Attrib pixel752    0.02247961284586078
+    Attrib pixel753    0.01842413047765805
+    Attrib pixel754    -0.046730328189992856
+    Attrib pixel755    0.03577905204718031
+    Attrib pixel756    -0.03971047979877315
+    Attrib pixel757    -0.026543986757299368
+    Attrib pixel758    -0.03647401930463082
+    Attrib pixel759    0.044675294194818624
+    Attrib pixel760    0.03493911289148194
+    Attrib pixel761    -0.8802413218072324
+    Attrib pixel762    -0.8541031180176547
+    Attrib pixel763    -0.9260208236725967
+    Attrib pixel764    -0.868242218427364
+    Attrib pixel765    -0.8351508229666055
+    Attrib pixel766    -0.8717565235907815
+    Attrib pixel767    -0.9124934280866647
+    Attrib pixel768    -0.8861294559444326
+    Attrib pixel769    -0.9136074884624675
+    Attrib pixel770    -0.8370639974986914
+    Attrib pixel771    -0.7798998496032926
+    Attrib pixel772    -0.91548689262777
+    Attrib pixel773    -0.8875147577613246
+    Attrib pixel774    -0.9012626912785343
+    Attrib pixel775    -0.8735622717047803
+    Attrib pixel776    -0.8951854317972711
+    Attrib pixel777    0.008228112048236605
+    Attrib pixel778    -0.02851001569520132
+    Attrib pixel779    0.036422219534425024
+    Attrib pixel780    0.006584646745826386
+    Attrib pixel781    -0.021957209950262548
+    Attrib pixel782    -0.010239094096266187
+    Attrib pixel783    0.0383301587247592
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+Class 2
+    Input
+    Node 2
+Class 3
+    Input
+    Node 3
+Class 4
+    Input
+    Node 4
+Class 5
+    Input
+    Node 5
+Class 6
+    Input
+    Node 6
+Class 7
+    Input
+    Node 7
+Class 8
+    Input
+    Node 8
+Class 9
+    Input
+    Node 9
+
+
+Time taken to build model: 31.38 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         975               19.5    %
+Incorrectly Classified Instances      4025               80.5    %
+Kappa statistic                          0.1017
+Mean absolute error                      0.1635
+Root mean squared error                  0.2859
+Relative absolute error                 90.8656 %
+Root relative squared error             95.3271 %
+Total Number of Instances             5000     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.731     0.004      0.953     0.731     0.827      0.958    0
+                 0.299     0.243      0.134     0.299     0.185      0.577    1
+                 0.374     0.206      0.182     0.374     0.245      0.668    2
+                 0.196     0.179      0.104     0.196     0.136      0.563    3
+                 0         0          0         0         0          0.566    4
+                 0         0          0         0         0          0.572    5
+                 0         0          0         0         0          0.61     6
+                 0.2       0.178      0.112     0.2       0.144      0.568    7
+                 0.101     0.089      0.107     0.101     0.104      0.573    8
+                 0         0          0         0         0          0.573    9
+Weighted Avg.    0.195     0.094      0.16      0.195     0.167      0.623
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   <-- classified as
+ 361  11  61  53   0   0   0   5   3   0 |   a = 0
+   0 167 113 112   0   0   0 110  56   0 |   b = 1
+   3 111 204  64   0   0   0 109  54   0 |   c = 2
+   3 143  98  94   0   0   0  94  48   0 |   d = 3
+   1 140 100  95   0   0   0  94  47   0 |   e = 4
+   2 136  98  93   0   0   0  94  46   0 |   f = 5
+   2 104 155 103   0   0   0 101  51   0 |   g = 6
+   4 149 102 101   0   0   0 101  49   0 |   h = 7
+   1 142  95  95   0   0   0  96  48   0 |   i = 8
+   2 142  96  95   0   0   0  95  48   0 |   j = 9
+

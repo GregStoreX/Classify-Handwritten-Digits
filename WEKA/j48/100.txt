@@ -1,0 +1,97 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     train2
+Instances:    100
+Attributes:   785
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+pixel651 <= 20
+|   pixel345 <= 15
+|   |   pixel275 <= 5
+|   |   |   pixel291 <= 211
+|   |   |   |   pixel206 <= 3
+|   |   |   |   |   pixel409 <= 28: 1 (16.0)
+|   |   |   |   |   pixel409 > 28: 6 (4.0/1.0)
+|   |   |   |   pixel206 > 3
+|   |   |   |   |   pixel712 <= 0
+|   |   |   |   |   |   pixel320 <= 88: 2 (13.0/2.0)
+|   |   |   |   |   |   pixel320 > 88: 3 (3.0)
+|   |   |   |   |   pixel712 > 0: 7 (3.0)
+|   |   |   pixel291 > 211: 0 (2.0/1.0)
+|   |   pixel275 > 5: 4 (2.0/1.0)
+|   pixel345 > 15
+|   |   pixel512 <= 156
+|   |   |   pixel664 <= 200
+|   |   |   |   pixel238 <= 2
+|   |   |   |   |   pixel153 <= 8: 4 (9.0)
+|   |   |   |   |   pixel153 > 8: 5 (3.0)
+|   |   |   |   pixel238 > 2
+|   |   |   |   |   pixel218 <= 4
+|   |   |   |   |   |   pixel127 <= 7
+|   |   |   |   |   |   |   pixel325 <= 253: 9 (14.0/1.0)
+|   |   |   |   |   |   |   pixel325 > 253: 7 (2.0)
+|   |   |   |   |   |   pixel127 > 7: 6 (4.0)
+|   |   |   |   |   pixel218 > 4: 5 (3.0/1.0)
+|   |   |   pixel664 > 200: 8 (2.0)
+|   |   pixel512 > 156: 0 (7.0/1.0)
+pixel651 > 20
+|   pixel427 <= 14
+|   |   pixel190 <= 10: 3 (7.0)
+|   |   pixel190 > 10: 8 (4.0)
+|   pixel427 > 14: 0 (2.0)
+
+Number of Leaves  : 	18
+
+Size of the tree : 	35
+
+
+Time taken to build model: 0.08 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          44               44      %
+Incorrectly Classified Instances        56               56      %
+Kappa statistic                          0.3697
+Mean absolute error                      0.113 
+Root mean squared error                  0.3217
+Relative absolute error                 63.2904 %
+Root relative squared error            107.6176 %
+Total Number of Instances              100     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.333     0.033      0.5       0.333     0.4        0.755    0
+                 0.875     0.024      0.875     0.875     0.875      0.925    1
+                 0.364     0.079      0.364     0.364     0.364      0.641    2
+                 0.455     0.09       0.385     0.455     0.417      0.726    3
+                 0.364     0.112      0.286     0.364     0.32       0.639    4
+                 0.167     0.053      0.167     0.167     0.167      0.52     5
+                 0         0.055      0         0         0          0.501    6
+                 0.429     0.022      0.6       0.429     0.5        0.752    7
+                 0.5       0.053      0.375     0.5       0.429      0.721    8
+                 0.5       0.105      0.438     0.5       0.467      0.697    9
+Weighted Avg.    0.44      0.065      0.434     0.44      0.433      0.706
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  3  0  0  1  2  2  0  0  0  1 |  a = 0
+  0 14  0  0  0  0  1  0  1  0 |  b = 1
+  0  0  4  4  0  0  1  0  1  1 |  c = 2
+  0  1  3  5  0  0  0  0  0  2 |  d = 3
+  1  0  2  1  4  0  2  0  0  1 |  e = 4
+  0  0  1  0  1  1  1  0  1  1 |  f = 5
+  2  1  0  0  5  1  0  0  0  0 |  g = 6
+  0  0  1  0  0  1  0  3  0  2 |  h = 7
+  0  0  0  0  1  1  0  0  3  1 |  i = 8
+  0  0  0  2  1  0  0  2  2  7 |  j = 9
+

@@ -1,0 +1,60 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.RandomForest -I 100 -K 10 -S 1 -depth 10
+Relation:     train2
+Instances:    100
+Attributes:   785
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 100 trees, each constructed while considering 10 random features.
+Out of bag error: 0.4
+Max. depth of trees: 10
+
+
+
+Time taken to build model: 0.09 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          68               68      %
+Incorrectly Classified Instances        32               32      %
+Kappa statistic                          0.6365
+Mean absolute error                      0.1299
+Root mean squared error                  0.2348
+Relative absolute error                 72.7431 %
+Root relative squared error             78.5355 %
+Total Number of Instances              100     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.778     0          1         0.778     0.875      0.918    0
+                 0.938     0.071      0.714     0.938     0.811      0.991    1
+                 0.727     0.056      0.615     0.727     0.667      0.946    2
+                 0.727     0.045      0.667     0.727     0.696      0.945    3
+                 0.727     0.045      0.667     0.727     0.696      0.955    4
+                 0.167     0          1         0.167     0.286      0.708    5
+                 0.667     0.011      0.857     0.667     0.75       0.971    6
+                 0.571     0.032      0.571     0.571     0.571      0.931    7
+                 0.167     0          1         0.167     0.286      0.917    8
+                 0.714     0.105      0.526     0.714     0.606      0.912    9
+Weighted Avg.    0.68      0.045      0.729     0.68      0.661      0.932
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  7  0  0  0  2  0  0  0  0  0 |  a = 0
+  0 15  0  0  0  0  1  0  0  0 |  b = 1
+  0  1  8  0  0  0  0  2  0  0 |  c = 2
+  0  0  1  8  0  0  0  0  0  2 |  d = 3
+  0  0  1  0  8  0  0  0  0  2 |  e = 4
+  0  1  0  2  0  1  0  1  0  1 |  f = 5
+  0  1  2  0  0  0  6  0  0  0 |  g = 6
+  0  0  0  0  0  0  0  4  0  3 |  h = 7
+  0  2  1  1  0  0  0  0  1  1 |  i = 8
+  0  1  0  1  2  0  0  0  0 10 |  j = 9
+
